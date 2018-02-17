@@ -1,15 +1,26 @@
-
-
-header {
+header, nav {
     background-color: #FD739C;
-    text-decoration-color: white;
+    color: white;
+    
+}
+nav {
+    padding-bottom: 120px;
+}
+header {
+    padding-bottom: 80px;
 }
 
 h1, h2 {
-    font-family: "Helvetica", sans-serif;
+    font-family: "Helvetica";
+    margin: 0px;
+    line-height: 60px;
 }
 
-p {
+body {
     font-size: 22px;
     line-height: 34px;
+}
+
+.landing-section-changelog, .landing-section-whoami {
+    padding-top: 50px;
 }
