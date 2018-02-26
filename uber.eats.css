@@ -1,0 +1,115 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+.container {
+  width: 976px;
+  margin-left: auto;
+  margin-right: auto;
+}
+header {
+    box-shadow: 0 0 20px rgba(126, 126, 126, 0.397);
+}
+.container__header {
+  /*background: rgb(212, 157, 175);*/
+  margin-left: auto;
+  margin-right: auto;
+  width: 976px;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  line-height: 24px;
+}
+.row__header {
+  height: 72px;
+  /*background: blue;*/
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.col-1,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-10,
+.col-11,
+.col-12 {
+  padding-left: 8px;
+  padding-right: 8px;
+  box-sizing: border-box;
+}
+.col-1 {
+  flex-basis: 8.333%;
+}
+.col-2 {
+  flex-basis: 16.6667%;
+}
+.col-3 {
+  flex-basis: 24.9999%;
+}
+.col-4 {
+  flex-basis: 33, 333%;
+}
+.col-5 {
+  flex-basis: 41, 665%;
+}
+.col-6 {
+  flex-basis: 50%;
+}
+.col-12 {
+  flex-basis: 100%;
+}
+
+.card {
+  background: rgba(255, 0, 0, 0.3);
+  border: 1px solid rgba(72, 72, 72, 0.2);
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.asap {
+  background: white;
+  border: 1px solid #e0e0e0;
+  padding: 8px 12px;
+  border-radius: 2px;
+}
+.input_to {
+  font-size: 16px;
+  line-height: 24px;
+  padding: 8px 72px 8px 36px;
+  border: 1px solid #e0e0e0;
+  border-radius: 2px;
+  background: url("logos/Group.svg") no-repeat 12px 12px;
+}
+.button__signin {
+  border: 1px solid #e0e0e0;
+  background: white;
+  border-radius: 2px;
+  height: 40px;
+  width: 80px;
+}
+.button__reg {
+  border: 1px solid #e0e0e0;
+  color: white;
+  background: black;
+  border-radius: 2px;
+  height: 40px;
+  width: 80px;
+}
+.basket {
+  margin-left: 24px;
+  margin-bottom: -5px;
+}
