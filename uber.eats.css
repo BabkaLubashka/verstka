@@ -12,18 +12,20 @@ html {
   width: 976px;
   margin-left: auto;
   margin-right: auto;
-}
-header {
-    box-shadow: 0 0 20px rgba(126, 126, 126, 0.397);
-}
-.container__header {
-  /*background: rgb(212, 157, 175);*/
-  margin-left: auto;
-  margin-right: auto;
-  width: 976px;
   font-size: 16px;
   font-family: "Roboto", sans-serif;
   line-height: 24px;
+}
+header {
+    box-shadow: 0 0 20px rgba(126, 126, 126, 0.397);
+    font-size: 16px;
+    font-family: "Roboto", sans-serif;
+    line-height: 24px;
+}
+form {
+  margin-top: 32px;
+  line-height: 48px;
+  /*background: rgb(212, 157, 175);*/
 }
 .row__header {
   height: 72px;
@@ -32,6 +34,13 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   align-items: center;
+  margin-left: -8px;
+  margin-right: -8px;
+}
+.row{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   margin-left: -8px;
   margin-right: -8px;
 }
@@ -52,22 +61,37 @@ header {
   box-sizing: border-box;
 }
 .col-1 {
-  flex-basis: 8.333%;
+  flex-basis: 8.3333%;
 }
 .col-2 {
-  flex-basis: 16.6667%;
+  flex-basis: 16.6666%;
 }
 .col-3 {
   flex-basis: 24.9999%;
 }
 .col-4 {
-  flex-basis: 33, 333%;
+  flex-basis: 33.3333%;
 }
 .col-5 {
-  flex-basis: 41, 665%;
+  flex-basis: 41.6665%;
 }
 .col-6 {
-  flex-basis: 50%;
+  flex-basis: 49.9998%;
+}
+.col-7 {
+  flex-basis: 58.3331%;
+}
+.col-8 {
+  flex-basis: 66.6664%;
+}
+.col-9 {
+  flex-basis: 74.9997%;
+}
+.col-10 {
+  flex-basis: 83.3333%;
+}
+.col-11 {
+  flex-basis: 91.6663%;
 }
 .col-12 {
   flex-basis: 100%;
@@ -85,6 +109,8 @@ header {
   border: 1px solid #e0e0e0;
   padding: 8px 12px;
   border-radius: 2px;
+  height: 40px;
+  width: 65px;
 }
 .input_to {
   font-size: 16px;
@@ -112,4 +138,13 @@ header {
 .basket {
   margin-left: 24px;
   margin-bottom: -5px;
+}
+.col-12 > input {
+  width: 100%;
+  border-style: none none solid none;
+  border-bottom: 1px solid #75757555;
+  padding-left: 30px;
+  padding-bottom: 16px; 
+  padding-top: 8px;
+  background: url(logos/search.svg) no-repeat 0 8px;
 }
